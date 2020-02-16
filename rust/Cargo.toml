@@ -1,0 +1,9 @@
+[package]
+name = "teocli"
+version = "0.1.0"    # the current version, obeying semver
+authors = ["max"]
+build = "build.rs"
+
+[[bin]]
+name = "teocli-rust"
+path = "src/teocli-rust.rs"
